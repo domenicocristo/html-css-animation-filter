@@ -53,3 +53,11 @@
     filter: grayscale(1);
 }
 
+.ex-7-img:hover {
+    transition: 0.5s;
+    filter: sepia(0.5);
+}
+
+.ex-8-square:active {
+    
+}
