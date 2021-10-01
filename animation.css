@@ -86,14 +86,15 @@
 }
 
 @keyframes loading-2 {
-    70% {
+    75% {
         transform: rotate(315deg);
     }
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: loading-3 2.5s linear;
+    animation: loading-3 1s linear;
 }
+
 @keyframes loading-3 {
     0% {
         left: 10%;
@@ -106,8 +107,9 @@
     }
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: loading-4 2.5s linear;
+    animation: loading-4 1s linear;
 }
+
 @keyframes loading-4 {
     0% {
         right: 20%;
@@ -121,30 +123,63 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: loading-5 2.5s linear;
+    animation: loading-5 1s linear;
 }
+
 @keyframes loading-5 {
     0% {
         left: 10%;
+        top: -10px;
     }
-    50% {
-        left: calc(100% - 60px);
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
     }
     100% {
         left: 10%;
+        top: -10px;
     }
 }
+
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: loading-6 2.5s linear;
+    animation: loading-6 1s linear;
 }
+
 @keyframes loading-6 {
     0% {
+        bottom: -10px;
         right: 20%;
     }
-    50% {
-        right: calc(100% - 60px);
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
     }
     100% {
+        bottom: -10px;
         right: 20%;
     }
 }
