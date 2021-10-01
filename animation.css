@@ -21,11 +21,16 @@
 }
 
 .ex-1-square:hover {
-    transition: background-color 5s;
+    transition: 5s;
     background-color: red;
 }
 
 .ex-2-square:active {
     transition: 3s;
     width: 100%;
+}
+
+.ex-3-square:hover {
+    transition: 1s;
+    border-radius: 50%;
 }
