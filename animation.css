@@ -39,3 +39,15 @@
     transition: 1s;
     background: none;
 }
+
+.ex-5-square:hover {
+    transition: 1s;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    background: red;
+}
+
+.ex-6-square:hover {
+    
+}
