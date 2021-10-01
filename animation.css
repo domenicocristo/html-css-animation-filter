@@ -61,7 +61,12 @@
 .ex-8-img:hover {
     transition: 0.5s;
     filter: sepia(0.5);
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
 }
 
-.ex-9-img:hover
+.ex-9-img:hover {
+    transition: 2s;
+    filter: sepia(0.5);
+    border-radius: 15px;
+    transform: scale(1.5);
+}
