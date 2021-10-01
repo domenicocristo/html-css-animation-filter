@@ -70,3 +70,13 @@
     border-radius: 15px;
     transform: scale(1.5);
 }
+
+.ex-10-icon {
+    animation: loading 0.8s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(1turn);
+    }
+}
