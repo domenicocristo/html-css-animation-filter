@@ -19,3 +19,8 @@
 .margin-top-75 {
     margin-top: 75px;
 }
+
+.ex-1-square:hover {
+    transition: background-color 5s;
+    background-color: red;
+}
