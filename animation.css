@@ -34,3 +34,8 @@
     transition: 1s;
     border-radius: 50%;
 }
+
+.ex-4-square:hover {
+    transition: 1s;
+    background: none;
+}
