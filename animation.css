@@ -24,3 +24,8 @@
     transition: background-color 5s;
     background-color: red;
 }
+
+.ex-2-square:active {
+    transition: 3s;
+    width: 100%;
+}
