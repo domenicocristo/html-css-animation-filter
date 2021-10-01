@@ -48,6 +48,8 @@
     background: red;
 }
 
-.ex-6-square:hover {
-    
+.ex-6-img:hover {
+    transition: 0.5s;
+    filter: grayscale(1);
 }
+
