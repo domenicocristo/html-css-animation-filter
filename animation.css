@@ -80,3 +80,15 @@
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover {
+    animation: loading-2 2s linear;
+}
+
+@keyframes loading-2 {
+
+    70% {
+        transform: rotate(315deg);
+    }
+}
+
